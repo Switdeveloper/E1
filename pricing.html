@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - SitDeveloper</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <div class="indicator"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="nav-logo-icon">⚡</div>
+                <h1>SitDeveloper</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="pricing.html" class="nav-link active">Pricing</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="nav-cta">Get Started</a>
+            <div class="hamburger">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <span class="section-label">Pricing Plans</span>
+            <h1>Choose Your Package</h1>
+            <p>Transparent pricing with no hidden fees. Select the plan that fits your needs</p>
+        </div>
+    </section>
+
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-grid">
+                <!-- Starter Package -->
+                <div class="pricing-card reveal">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="amount">999</span>
+                            <span class="period">/project</span>
+                        </div>
+                        <p>Perfect for small businesses starting their digital journey</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 5 Page Website</li>
+                        <li>✓ Mobile Responsive</li>
+                        <li>✓ Basic SEO Setup</li>
+                        <li>✓ Contact Form</li>
+                        <li>✓ Social Media Integration</li>
+                        <li>✓ 1 Month Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-secondary">Get Started</a>
+                </div>
+
+                <!-- Professional Package -->
+                <div class="pricing-card popular reveal stagger-1">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="amount">2,499</span>
+                            <span class="period">/project</span>
+                        </div>
+                        <p>Ideal for growing businesses needing more features</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 10 Page Website</li>
+                        <li>✓ Advanced UI/UX Design</li>
+                        <li>✓ E-commerce Ready</li>
+                        <li>✓ Complete SEO Package</li>
+                        <li>✓ Blog Integration</li>
+                        <li>✓ Email Marketing Setup</li>
+                        <li>✓ 3 Months Support</li>
+                        <li>✓ Analytics Dashboard</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Get Started</a>
+                </div>
+
+                <!-- Enterprise Package -->
+                <div class="pricing-card reveal stagger-2">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="amount">4,999</span>
+                            <span class="period">/project</span>
+                        </div>
+                        <p>Complete digital solution for large organizations</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Unlimited Pages</li>
+                        <li>✓ Custom Web Application</li>
+                        <li>✓ E-commerce Full Setup</li>
+                        <li>✓ Advanced SEO & Marketing</li>
+                        <li>✓ Automation Integration</li>
+                        <li>✓ CRM Integration</li>
+                        <li>✓ 6 Months Support</li>
+                        <li>✓ Priority Support</li>
+                        <li>✓ Custom Training</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add-ons Section -->
+    <section class="addons-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Extras</span>
+                <h2>Add-on Services</h2>
+                <p>Enhance your package with additional services</p>
+            </div>
+            <div class="addons-grid">
+                <div class="addon-card reveal">
+                    <div class="addon-icon">🎨</div>
+                    <h4>Logo Design</h4>
+                    <p class="addon-price">$299</p>
+                    <p>Professional logo with 3 concepts</p>
+                </div>
+                <div class="addon-card reveal stagger-1">
+                    <div class="addon-icon">📱</div>
+                    <h4>App Development</h4>
+                    <p class="addon-price">$2,999+</p>
+                    <p>iOS & Android mobile app</p>
+                </div>
+                <div class="addon-card reveal stagger-2">
+                    <div class="addon-icon">📧</div>
+                    <h4>Email Marketing</h4>
+                    <p class="addon-price">$199/mo</p>
+                    <p>Monthly campaigns & automation</p>
+                </div>
+                <div class="addon-card reveal stagger-3">
+                    <div class="addon-icon">🎯</div>
+                    <h4>PPC Advertising</h4>
+                    <p class="addon-price">$499/mo</p>
+                    <p>Google & Facebook Ads management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Questions</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item reveal">
+                    <h4>How long does it take to build a website?</h4>
+                    <p>Typically 4-8 weeks depending on complexity. We provide a detailed timeline after our initial consultation.</p>
+                </div>
+                <div class="faq-item reveal stagger-1">
+                    <h4>Do you offer ongoing maintenance?</h4>
+                    <p>Yes! All packages include support. We also offer monthly maintenance plans for ongoing updates and security.</p>
+                </div>
+                <div class="faq-item reveal stagger-2">
+                    <h4>Can you work with our existing branding?</h4>
+                    <p>Absolutely! We'll integrate your brand guidelines and enhance them with modern design elements.</p>
+                </div>
+                <div class="faq-item reveal stagger-3">
+                    <h4>What payment options do you accept?</h4>
+                    <p>We accept bank transfers, credit cards, and PayPal. We also offer payment plans for larger projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Not Sure Which Plan?</h2>
+            <p>Let's discuss your needs and find the perfect solution for your business</p>
+            <a href="contact.html" class="btn btn-primary">Book Free Consultation</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="nav-logo">
+                        <div class="nav-logo-icon">⚡</div>
+                        <h1>SitDeveloper</h1>
+                    </div>
+                    <p>Your trusted partner for digital marketing and website design. We help businesses succeed online.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Website Design</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                        <li><a href="services.html">Automation</a></li>
+                        <li><a href="services.html">SEO & Analytics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:hello@sitdeveloper.com">hello@sitdeveloper.com</a></li>
+                        <li><a href="tel:+15551234567">(555) 123-4567</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SitDeveloper. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
